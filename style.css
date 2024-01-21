@@ -5,6 +5,24 @@
     --placeholder-color:#BBB;
 }
 
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 942px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+.header{
+    padding-top: 44px;
+    padding-bottom: 189px;
+}
+
 .header-logo {
     color: var(--accent-color);
 
@@ -24,6 +42,10 @@ font-size: 14px;
 font-style: normal;
 font-weight: 400;
 text-transform: uppercase;
+}
+.service-section{
+    padding-top: 109px;
+    padding-bottom: 119px;
 }
 .service-title{
     color:var(--title-text-color);
@@ -56,6 +78,8 @@ font-weight: 400;
 }
 .footer{
     background-color: var(--title-text-color);
+    padding-top: 92px;
+    padding-bottom: 115px;
 
 }
 .footer-title{
@@ -79,4 +103,13 @@ font-weight: 700;
 line-height: normal;
 text-transform: uppercase;
     background-color: var(--accent-color);
+    width: 242px;
+height: 68px;
+}
+.form-name{
+    margin-bottom: 28px;
+
+}
+.form-email{
+    margin-bottom: 28px;
 }
